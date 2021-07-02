@@ -9,11 +9,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var homeLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func educationButton(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func activismButton(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func healthButton(_ sender: UIButton) {
+    }
+    
 }
 
